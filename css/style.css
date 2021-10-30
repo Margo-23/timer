@@ -1,0 +1,79 @@
+.container {
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timer__block {
+  width: 150px;
+}
+
+.time {
+  background-color: #bfdcf0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 95px;
+  height: 150px;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  background-color: #050577;
+  padding: 5px 2px;
+  text-align: center;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.buttons .button {
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 120px;
+  color: white;
+  font-size: 24px;
+  background-color: #8122a8;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.buttons .button:hover {
+  background-color: #bfdcf0;
+  color: #050577;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
